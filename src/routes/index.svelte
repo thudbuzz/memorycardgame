@@ -89,10 +89,11 @@
 </script>
 
 <div class="wrapper">
-	<h1>Memory Card Game</h1>
-	<button on:click={shuffleCards}>New Game</button>
-	<p>Turns:{turns}</p>
-
+	<div class="header">
+		<h1>Memory Card Game</h1>
+		<button on:click={shuffleCards}>New Game</button>
+		<p>Turns:{turns}</p>
+	</div>
 	<div class="card-grid">
 		{#each cards as card (card.id)}
 			<SingleCard
@@ -112,9 +113,6 @@
 
 <style>
 	.wrapper {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
 		max-width: 720px;
 		margin: 0 auto;
 		padding: 0 1em;
@@ -122,13 +120,21 @@
 			sans-serif;
 	}
 
-	.wrapper h1 {
+	.header {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 1em;
+	}
+
+	h1 {
 		text-align: center;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	}
 
-	.wrapper button {
+	button {
 		font-size: 1.5rem;
 		padding: 1rem 2rem;
 		border: none;
@@ -136,7 +142,7 @@
 		margin-bottom: 1rem;
 	}
 
-	.wrapper p {
+	p {
 		text-align: center;
 		font-size: 1.5rem;
 	}
