@@ -89,6 +89,7 @@
 </script>
 
 <div class="wrapper">
+	<h1>Memory Card Game</h1>
 	<button on:click={shuffleCards}>New Game</button>
 	<p>Turns:{turns}</p>
 
@@ -106,12 +107,14 @@
 
 <style>
 	.wrapper {
-		max-width: 320px;
+		min-height: 100vh;
+		max-width: 720px;
+		margin: 0 auto;
 	}
 	.card-grid {
 		margin-top: 40px;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-gap: 0.25em;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 0.5em;
 	}
 </style>
