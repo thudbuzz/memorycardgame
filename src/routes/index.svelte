@@ -88,6 +88,11 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Memory Card Game</title>
+	<meta name="description" content="Memory Card Game build with SvelteKit" />
+</svelte:head>
+
 <div class="wrapper">
 	<div class="header">
 		<h1>Memory Card Game</h1>
