@@ -117,6 +117,7 @@
 		min-height: 100vh;
 		max-width: 720px;
 		margin: 0 auto;
+		padding: 0 1em;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
 			sans-serif;
 	}
