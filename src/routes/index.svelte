@@ -106,8 +106,9 @@
 	</div>
 
 	<footer>
-		Made by <a href="https://www.thudbuzz.dev">Thudbuzz</a> with
-		<a href="https://kit.svelte.dev/">SvelteKit</a>
+		<a href="https://github.com/thudbuzz/tb-memory-game">
+			<img src="/GitHub-Mark-32px.png" alt="GitHub" />
+		</a>
 	</footer>
 </div>
 
@@ -150,7 +151,7 @@
 
 	.card-grid {
 		margin-top: 1rem;
-		margin-bottom: 3rem;
+		margin-bottom: 5rem;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 0.5em;
