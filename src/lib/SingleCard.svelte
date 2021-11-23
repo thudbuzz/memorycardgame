@@ -31,7 +31,7 @@
 
 	.card .front {
 		position: absolute;
-		background: #eee;
+		background: #e1e2e1;
 		border-radius: 5px;
 		overflow: hidden;
 		transform: rotateY(90deg);

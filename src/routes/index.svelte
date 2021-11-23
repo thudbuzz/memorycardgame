@@ -105,10 +105,10 @@
 		{/each}
 	</div>
 
-	<p>
+	<footer>
 		Made by <a href="https://www.thudbuzz.dev">Thudbuzz</a> with
 		<a href="https://kit.svelte.dev/">SvelteKit</a>
-	</p>
+	</footer>
 </div>
 
 <style>
@@ -116,6 +116,7 @@
 		max-width: 720px;
 		margin: 0 auto;
 		padding: 0 1em;
+		color: #1b1b1b;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
 			sans-serif;
 	}
@@ -149,9 +150,13 @@
 
 	.card-grid {
 		margin-top: 1rem;
-		margin-bottom: 1rem;
+		margin-bottom: 3rem;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 0.5em;
+	}
+
+	footer {
+		text-align: center;
 	}
 </style>
