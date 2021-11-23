@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
-	import SingleCard from '/src/components/SingleCard.svelte';
+	import SingleCard from '$lib/SingleCard.svelte';
 
 	const cardImages = [
 		{
