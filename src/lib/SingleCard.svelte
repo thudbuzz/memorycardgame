@@ -17,7 +17,7 @@
 			<polygon points={card.points} fill={card.color} />
 		</svg>
 		<svg class="back" on:click={() => handleClick(card)} viewbox="0 0 100 100">
-			<rect x="0" y="0" width="100" height="100" fill="black" />
+			<rect x="0" y="0" width="100" height="100" fill="#1b1b1b" />
 		</svg>
 	</div>
 </div>

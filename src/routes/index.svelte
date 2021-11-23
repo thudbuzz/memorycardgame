@@ -107,6 +107,8 @@
 
 <style>
 	.wrapper {
+		display: flex;
+		flex-direction: column;
 		min-height: 100vh;
 		max-width: 720px;
 		margin: 0 auto;
@@ -116,15 +118,16 @@
 
 	.wrapper h1 {
 		text-align: center;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 	}
 
 	.wrapper button {
-		margin: 0 auto;
-		display: block;
 		font-size: 1.5rem;
 		padding: 1rem 2rem;
 		border: none;
 		border-radius: 5px;
+		margin-bottom: 1rem;
 	}
 
 	.wrapper p {
