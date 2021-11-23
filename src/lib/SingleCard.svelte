@@ -36,11 +36,13 @@
 		overflow: hidden;
 		transform: rotateY(90deg);
 		transition: all ease-in 0.2s;
+		border: solid 1px #1b1b1b;
 	}
 
 	.flipped .front {
 		transform: rotateY(0deg);
 		transition-delay: 0.2s;
+		border: solid 1px #1b1b1b;
 	}
 
 	.card .back {
