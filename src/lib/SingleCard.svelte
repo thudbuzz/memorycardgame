@@ -25,18 +25,15 @@
 <style>
 	.card {
 		position: relative;
-	}
-
-	.card img {
 		width: 100%;
 		height: 100%;
-		display: block;
-		border: 2px solid #fff;
-		border-radius: 6px;
 	}
 
 	.card .front {
 		position: absolute;
+		background: #eee;
+		border-radius: 5px;
+		overflow: hidden;
 		transform: rotateY(90deg);
 		transition: all ease-in 0.2s;
 	}
@@ -47,6 +44,8 @@
 	}
 
 	.card .back {
+		border-radius: 5px;
+		overflow: hidden;
 		transition: all ease-in 0.2s;
 		transition-delay: 0.2s;
 	}
