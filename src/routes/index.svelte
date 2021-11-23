@@ -138,7 +138,7 @@
 	button {
 		font-size: 1.5rem;
 		padding: 1rem 2rem;
-		border: none;
+
 		border-radius: 5px;
 		margin-bottom: 1rem;
 	}
