@@ -110,7 +110,28 @@
 		min-height: 100vh;
 		max-width: 720px;
 		margin: 0 auto;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+			sans-serif;
 	}
+
+	.wrapper h1 {
+		text-align: center;
+	}
+
+	.wrapper button {
+		margin: 0 auto;
+		display: block;
+		font-size: 1.5rem;
+		padding: 1rem 2rem;
+		border: none;
+		border-radius: 5px;
+	}
+
+	.wrapper p {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
 	.card-grid {
 		margin-top: 40px;
 		display: grid;
