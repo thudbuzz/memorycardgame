@@ -103,6 +103,11 @@
 			/>
 		{/each}
 	</div>
+
+	<p>
+		Made by <a href="https://www.thudbuzz.dev">Thudbuzz</a> with
+		<a href="https://kit.svelte.dev/">SvelteKit</a>
+	</p>
 </div>
 
 <style>
@@ -136,7 +141,8 @@
 	}
 
 	.card-grid {
-		margin-top: 40px;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 0.5em;
